@@ -4,9 +4,8 @@ In this workshop, we will use QL to find Java Messaging Service (JMS) deserializ
 
 ## Getting started
 
-* Log in to lgtm.com using your Google account (or sign up)
-* Search for project `lgtm-workshop`
-* Click “View Project”, then “Follow”
+* Log in to [lgtm.com](lgtm.com) using your Google account (or sign up)
+* Go to the [lgtm-workshop](https://lgtm.com/projects/g/adityasharad/lgtm-workshop) project and click “Follow”
 * Open the lgtm query console by clicking “Query this project”
 
 
@@ -18,7 +17,7 @@ Keyboard shortcuts in the query console:
 
 Use QL to find the interface `javax.jms.ObjectMessage` and all classes that are its subtypes.
 
-Next, in these classes, find all the methods that implement (override or instantiate) the `getObject` method declared in the interface `javax.jms.ObjectMessage`.
+Next, in these classes, find all the methods that override the `getObject` method declared in the interface `javax.jms.ObjectMessage`.
 
 ### Scoring
 5 points per method.
@@ -87,3 +86,8 @@ There are two useful predicates you can call from this library:
 10 points for identifying each true positive from Task 2.
 
 5 points for each false positive from Task 2 that your improved query ignores.
+
+## References
+* lgtm.com: _Deserialization of user-controlled data_ query help. https://lgtm.com/rules/1823453799/
+* Matthias Kaiser: _Pwning your Java Messaging with Deserialization Vulnerabilities_, Black Hat USA 2016. https://www.blackhat.com/docs/us-16/materials/us-16-Kaiser-Pwning-Your-Java-Messaging-With-Deserialization-Vulnerabilities.pdf
+* Chris Frohoff and Gabriel Lawrence: _OWASP SD: Deserialize My Shorts, Or How I Learned to Start Worrying and Hate Java Object Deserialization._ http://frohoff.github.io/owaspsd-deserialize-my-shorts/
