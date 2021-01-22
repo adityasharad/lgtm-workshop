@@ -50,7 +50,7 @@
     <camel-version>2.16.0</camel-version>
     <camel-version-range>[2.15,3)</camel-version-range>
     <cglib-version>2.2</cglib-version>
-    <commons-beanutils-version>1.8.3</commons-beanutils-version>
+    <commons-beanutils-version>1.9.4</commons-beanutils-version>
     <commons-collections-version>3.2.1</commons-collections-version>
     <commons-daemon-version>1.0.15</commons-daemon-version>
     <commons-dbcp2-version>2.1.1</commons-dbcp2-version>
